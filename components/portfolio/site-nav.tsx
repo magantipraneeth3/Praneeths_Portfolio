@@ -57,7 +57,7 @@ export function SiteNav() {
             {profile.initials}
           </span>
           <span className="hidden text-sm font-medium tracking-tight sm:block">
-            Praneeth<span className="text-muted-foreground">.dev</span>
+            PraneethMaganti<span className="text-muted-foreground">.com</span>
           </span>
         </a>
 
