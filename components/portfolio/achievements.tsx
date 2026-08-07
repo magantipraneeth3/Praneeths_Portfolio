@@ -14,8 +14,8 @@ export function Achievements() {
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           eyebrow="Honors & Achievements"
-          title="Recognition earned along the way"
-          description="A blend of academic distinction, athletics, and strategic thinking."
+          title="AI-Driven 3D Digital Twin Framework for Damage Detection and Predictive Recovery in Green Hydrogen Pipelines"
+          description="This research proposes an AI-driven 3D Digital Twin framework for intelligent monitoring, damage detection, and predictive recovery of green hydrogen pipelines. The proposed system integrates 3D Digital Twin technology, artificial intelligence, sensor data, and predictive analytics to create a dynamic virtual representation of a physical hydrogen pipeline."
         />
 
         <StaggerGroup className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
