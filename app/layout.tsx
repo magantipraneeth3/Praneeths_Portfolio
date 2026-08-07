@@ -20,17 +20,16 @@ const siteUrl = 'https://praneeth-portfolio.vercel.app'
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Maganti Praneeth Sri Satya Chowdary — AI & Machine Learning Engineer',
+    default: 'Maganti Praneeth Sri Satya Chowdary — Software  Engineer',
     template: '%s · Praneeth Maganti',
   },
   description:
-    'Portfolio of Maganti Praneeth Sri Satya Chowdary — Computer Science Engineering student specializing in Data Science with AI. Building intelligent applications across Machine Learning, NLP, and Cloud Computing.',
+    'Portfolio of Maganti Praneeth Sri Satya Chowdary — Computer Science Engineering student specializing in Data Science with AI. Building intelligent applications across Machine Learning and Cloud Computing.',
   keywords: [
     'Praneeth Maganti',
     'AI Engineer',
     'Machine Learning',
     'Data Science',
-    'NLP',
     'Python Developer',
     'KL University',
     'Software Engineer Portfolio',
@@ -48,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Maganti Praneeth Sri Satya Chowdary — AI & ML Engineer',
+    title: 'Maganti Praneeth Sri Satya Chowdary — Software Engineer',
     description:
       'Computer Science Engineering student specializing in Data Science with AI.',
   },
