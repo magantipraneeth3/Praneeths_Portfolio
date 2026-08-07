@@ -56,7 +56,7 @@ export function Contact() {
                 <GithubIcon size={18} />
               </a>
               <a
-                href={}
+                href="https://www.linkedin.com/in/maganti-praneeth-sri-satya-chowdary-25811a353/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
