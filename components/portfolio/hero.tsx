@@ -53,9 +53,9 @@ export function Hero() {
           transition={{ duration: 0.8, ease: easeOut, delay: 0.1 }}
           className="max-w-4xl text-balance text-5xl font-semibold leading-[0.95] tracking-tight sm:text-7xl lg:text-8xl"
         >
-          <span className="text-gradient">Praneeth</span>
-          <br />
-          <span className="text-foreground/90">Maganti</span>
+          <span className="text-gradient">Maganti</span>
+<br />
+<span className="text-foreground/90">Praneeth Sri Satya Chowdary</span>
         </motion.h1>
 
         <div className="mt-6 flex h-8 items-center text-lg font-medium text-muted-foreground sm:text-xl">
