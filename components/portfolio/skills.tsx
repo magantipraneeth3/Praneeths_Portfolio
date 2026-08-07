@@ -35,6 +35,7 @@ export function Skills() {
                   'radial-gradient(circle at 50% 40%, oklch(0.64 0.19 285 / 0.12), transparent 60%)',
               }}
             />
+
             {skillCloud.map((s, i) => (
               <motion.button
                 key={s.name}
@@ -49,14 +50,17 @@ export function Skills() {
                   duration: 0.4,
                   ease: [0.22, 1, 0.36, 1],
                 }}
-                whileHover={{ scale: 1.08, y: -3 }}
-                className={`relative rounded-full border px-4 py-2 transition-colors duration-300 ${
+                whileHover={{
+                  scale: 1.08,
+                  y: -3,
+                }}
+                className={`relative rounded-full border px-4 py-2 transition-all duration-300 ${
                   weightClasses[s.weight]
                 } ${
                   hovered && hovered !== s.name
                     ? 'opacity-40'
                     : 'opacity-100'
-                }`}
+                } hover:border-primary hover:bg-primary/20 hover:text-foreground hover:shadow-lg hover:shadow-primary/20`}
               >
                 {s.name}
               </motion.button>
@@ -76,14 +80,22 @@ export function Skills() {
                 <span className="h-1.5 w-1.5 rounded-full bg-primary" />
                 {group.category}
               </h3>
+
               <div className="flex flex-wrap gap-2">
                 {group.skills.map((skill) => (
-                  <span
+                  <motion.span
                     key={skill}
-                    className="rounded-lg border border-border/60 bg-secondary/40 px-2.5 py-1 font-mono text-xs text-muted-foreground"
+                    whileHover={{
+                      scale: 1.08,
+                      y: -2,
+                    }}
+                    transition={{
+                      duration: 0.2,
+                    }}
+                    className="cursor-pointer rounded-lg border border-border/60 bg-secondary/40 px-2.5 py-1 font-mono text-xs text-muted-foreground transition-all duration-300 hover:border-primary hover:bg-primary/20 hover:text-foreground hover:shadow-md hover:shadow-primary/20"
                   >
                     {skill}
-                  </span>
+                  </motion.span>
                 ))}
               </div>
             </motion.div>
