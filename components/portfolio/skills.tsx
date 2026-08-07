@@ -12,9 +12,6 @@ const weightClasses: Record<number, string> = {
   1: 'text-sm text-muted-foreground border-border bg-secondary/30',
 }
 
-const hoverClasses =
-  'transition-all duration-300 hover:scale-105 hover:-translate-y-1 hover:border-primary hover:bg-primary/20 hover:text-foreground hover:shadow-lg hover:shadow-primary/20'
-
 export function Skills() {
   const [hovered, setHovered] = useState<string | null>(null)
 
@@ -27,7 +24,7 @@ export function Skills() {
           description="From low-level algorithms to cloud deployment — the technologies I reach for to ship ML-driven products."
         />
 
-        {/* Skill Cloud */}
+        {/* Interactive skill cloud */}
         <Reveal>
           <div className="relative mb-12 flex flex-wrap items-center justify-center gap-3 rounded-3xl border border-border glass p-8 sm:p-12">
             <div
@@ -57,11 +54,13 @@ export function Skills() {
                   scale: 1.08,
                   y: -3,
                 }}
-                className={`relative rounded-full border px-4 py-2 ${weightClasses[s.weight]} ${hoverClasses} ${
+                className={`relative rounded-full border px-4 py-2 transition-all duration-300 ${
+                  weightClasses[s.weight]
+                } ${
                   hovered && hovered !== s.name
                     ? 'opacity-40'
                     : 'opacity-100'
-                }`}
+                } hover:border-primary hover:bg-primary/20 hover:text-foreground hover:shadow-lg hover:shadow-primary/20`}
               >
                 {s.name}
               </motion.button>
@@ -69,7 +68,7 @@ export function Skills() {
           </div>
         </Reveal>
 
-        {/* Grouped Skills */}
+        {/* Grouped skills */}
         <StaggerGroup className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {skillGroups.map((group) => (
             <motion.div
@@ -88,13 +87,12 @@ export function Skills() {
                     key={skill}
                     whileHover={{
                       scale: 1.08,
-                      y: -3,
+                      y: -2,
                     }}
                     transition={{
                       duration: 0.2,
-                      ease: [0.22, 1, 0.36, 1],
                     }}
-                    className={`cursor-pointer rounded-lg border border-border/60 bg-secondary/40 px-2.5 py-1 font-mono text-xs text-muted-foreground ${hoverClasses}`}
+                    className="cursor-pointer rounded-lg border border-border/60 bg-secondary/40 px-2.5 py-1 font-mono text-xs text-muted-foreground transition-all duration-300 hover:border-primary hover:bg-primary/20 hover:text-foreground hover:shadow-md hover:shadow-primary/20"
                   >
                     {skill}
                   </motion.span>
