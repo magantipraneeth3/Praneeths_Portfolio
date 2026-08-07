@@ -204,8 +204,8 @@ export const timeline: TimelineItem[] = [
     meta: '94%',
   },
   {
-    period: 'SSC',
-    title: 'Secondary School',
+    period: 'CBSE',
+    title: 'Central Board Of Secondary Education',
     org: 'Dr. KKR Gowtham School',
     detail: 'Secondary education with a strong academic record.',
     meta: '80%',
