@@ -112,7 +112,7 @@ export function Hero() {
           </a>
           <div className="ml-1 flex items-center gap-2">
             <a
-              href={profile.github}
+             href="https://github.com/magantipraneeth3"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -121,7 +121,7 @@ export function Hero() {
               <GithubIcon size={18} />
             </a>
             <a
-              href={profile.linkedin}
+              href="https://www.linkedin.com/in/maganti-praneeth-sri-satya-chowdary-25811a353/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
