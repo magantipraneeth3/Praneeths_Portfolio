@@ -13,9 +13,9 @@ export const profile = {
   summary:
     'I am a highly motivated Computer Science Engineering student specializing in Data Science Engineering with Artificial Intelligence at KL University. My passion lies in Artificial Intelligence, Machine Learning, Data Science, Software Engineering, and Cloud Computing. I enjoy solving real-world problems by building intelligent applications, designing scalable software solutions, and conducting research.',
   location: 'India',
-  email: 'praneeth.maganti@example.com',
-  github: 'https://github.com',
-  linkedin: 'https://linkedin.com',
+  email: 'magantipraneeth3@gmail.com',
+  github: 'https://github.com/magantipraneeth3',
+  linkedin: 'https://www.linkedin.com/in/maganti-praneeth-sri-satya-chowdary-25811a353/',
 }
 
 export const stats = [
