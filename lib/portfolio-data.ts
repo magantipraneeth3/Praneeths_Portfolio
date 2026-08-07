@@ -5,10 +5,10 @@ export const profile = {
   headline:
     'Computer Science Engineering Student · Data Science with AI · ML Engineer · Python Developer · Research Enthusiast',
   roles: [
-    'AI & Machine Learning Engineer',
     'Data Science Engineer',
     'Python Developer',
     'Research Enthusiast',
+    'AI & Machine Learning Engineer'
   ],
   summary:
     'I am a highly motivated Computer Science Engineering student specializing in Data Science Engineering with Artificial Intelligence at KL University. My passion lies in Artificial Intelligence, Machine Learning, Data Science, Software Engineering, and Cloud Computing. I enjoy solving real-world problems by building intelligent applications, designing scalable software solutions, and conducting research.',
