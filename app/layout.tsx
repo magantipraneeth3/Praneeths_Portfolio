@@ -21,12 +21,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default: 'Maganti Praneeth Sri Satya Chowdary — Software  Engineer',
-    template: '%s · Praneeth Maganti',
+    template: '%s ·Maganti Praneeth Sri Satya Chowdary',
   },
   description:
     'Portfolio of Maganti Praneeth Sri Satya Chowdary — Computer Science Engineering student specializing in Data Science with AI. Building intelligent applications across Machine Learning and Cloud Computing.',
   keywords: [
-    'Praneeth Maganti',
+    'Maganti Praneeth Sri Satya Chowdary',
     'AI Engineer',
     'Machine Learning',
     'Data Science',
