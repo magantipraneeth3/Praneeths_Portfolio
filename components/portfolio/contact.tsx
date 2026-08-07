@@ -47,7 +47,7 @@ export function Contact() {
 
             <div className="mt-6 flex items-center justify-center gap-3">
               <a
-                href={.github}
+                href={"https://github.com/magantipraneeth3"}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -56,7 +56,7 @@ export function Contact() {
                 <GithubIcon size={18} />
               </a>
               <a
-                href={profile.linkedin}
+                href={}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
