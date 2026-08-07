@@ -47,7 +47,7 @@ export function Contact() {
 
             <div className="mt-6 flex items-center justify-center gap-3">
               <a
-                href={profile.github}
+                href={.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
