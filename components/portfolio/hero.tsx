@@ -35,7 +35,7 @@ export function Hero() {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
             <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
           </span>
-          Open to internships · Class of 2028
+          Open to internships · Btech
         </motion.div>
 
         <motion.p
