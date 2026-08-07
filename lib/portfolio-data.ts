@@ -215,7 +215,6 @@ export const timeline: TimelineItem[] = [
 export const coreSubjects = [
   'Artificial Intelligence',
   'Machine Learning',
-  'Natural Language Processing',
   'Data Engineering',
   'Probability & Statistics',
   'Mathematical Optimization',
@@ -273,7 +272,6 @@ export const achievements = [
   'Maintaining a CGPA of 9.52 / 10',
   'AWS Certified Cloud Practitioner',
   'Microsoft GitHub Copilot Certified',
-  'University Kho-Kho Athlete',
   'Competitive Chess Player — strategic & analytical thinking',
   'Passionate AI & Machine Learning Researcher',
 ]
