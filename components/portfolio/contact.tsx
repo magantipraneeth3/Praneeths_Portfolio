@@ -33,7 +33,7 @@ export function Contact() {
 
             <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
               <a
-                href={`mailto:${profile.email}`}
+                href="mailto:magantipraneeth3@gmail.com"
                 className="group inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-transform hover:scale-[1.03] active:scale-95"
               >
                 <Mail size={16} />
