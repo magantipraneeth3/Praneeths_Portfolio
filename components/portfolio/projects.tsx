@@ -102,7 +102,7 @@ export function Projects() {
 
                   <div className="mt-7 flex items-center gap-3 border-t border-border/60 pt-5">
                     <a
-                      href={profile.github}
+                      href="https://github.com/magantipraneeth3"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium transition-colors hover:border-primary/40 hover:bg-secondary"
@@ -111,7 +111,7 @@ export function Projects() {
                       Source
                     </a>
                     <a
-                      href={profile.github}
+                      href="https://github.com/magantipraneeth3"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-sm font-medium text-primary transition-colors hover:text-foreground"
