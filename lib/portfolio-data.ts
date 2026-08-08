@@ -293,7 +293,7 @@ export const interests = [
   'Technology Blogs',
   'Problem Solving',
 ]
-
+/* MAGANTI PRANEETH CHOWDARY */
 export const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Skills', href: '#skills' },
