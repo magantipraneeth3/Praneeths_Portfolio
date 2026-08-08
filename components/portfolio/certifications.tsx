@@ -12,7 +12,7 @@ export function Certifications() {
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           eyebrow="Credentials"
-          title="Certified & continuously learning"
+          title="Certified & Continuously Learning"
           description="Industry certifications and hands-on programs that back up the practice."
         />
 
