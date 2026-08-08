@@ -741,7 +741,7 @@ packages:
         optional: true
       vue-router:
         optional: true
-
+/* MAGANTI PRANEETH CHOWDARY */
   accepts@2.0.0:
     resolution: {integrity: sha512-5cvg6CtKwfgdmVqY1WIiXKc3Q1bkRqGLi+2W/6ao+6Y7gu/RCwRuAhGEzh5B4KlszSuTLgZYuqFqo5bImjNKng==}
     engines: {node: '>= 0.6'}
