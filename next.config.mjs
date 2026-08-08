@@ -9,4 +9,4 @@ const nextConfig = {
 }
 
 export default nextConfig
-/* Dark by default — this is a premium dark-mode portfolio */
+/* MAGANTI PRANEETH CHOWDARY */
