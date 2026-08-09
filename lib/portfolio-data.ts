@@ -38,24 +38,34 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: 'disease-prediction',
-    index: '01',
-    title: 'ML Disease Prediction System',
-    category: 'Healthcare · Machine Learning',
-    description:
-      'A healthcare prediction system using an ensemble of Machine Learning algorithms to forecast disease risk from clinical features, engineered for reliability and interpretability.',
-    highlights: [
-      'Logistic Regression, Random Forest & XGBoost ensemble',
-      'Feature engineering pipeline for clinical signals',
-      'Hyperparameter tuning with cross-validation',
-    ],
-    tech: ['Python', 'Scikit-learn', 'XGBoost', 'Pandas', 'NumPy'],
-    metric: [
-      { label: 'Models', value: '3' },
-      { label: 'Approach', value: 'Ensemble' },
-      { label: 'Tuning', value: 'GridCV' },
-    ],
-  },
+  id: 'disease-prediction',
+  index: '01',
+  title: 'ML Disease Prediction System',
+  category: 'Healthcare · Machine Learning',
+  description:
+    'An end-to-end machine learning healthcare application that predicts diabetes risk from patient health parameters, with a web-based interface for real-time predictions and prediction history.',
+  highlights: [
+    'Diabetes risk prediction using a trained Machine Learning model',
+    'Interactive web interface for entering patient health parameters',
+    'Prediction history with database integration',
+    'End-to-end ML pipeline from data preprocessing to deployment',
+  ],
+  tech: [
+    'Python',
+    'Scikit-learn',
+    'Pandas',
+    'NumPy',
+    'Flask',
+    'React',
+    'SQLite',
+  ],
+  metric: [
+    { label: 'Type', value: 'Diabetes Risk' },
+    { label: 'Backend', value: 'Flask' },
+    { label: 'Frontend', value: 'React' },
+    { label: 'Deployment', value: 'Vercel' },
+  ],
+},
   {
     id: 'student-performance',
     index: '02',
