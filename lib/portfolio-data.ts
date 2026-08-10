@@ -67,24 +67,27 @@ export const projects: Project[] = [
   ],
 },
   {
-    id: 'student-performance',
-    index: '02',
-    title: 'Student Performance Prediction',
-    category: 'Predictive Analytics',
-    description:
-      'A predictive analytics system that forecasts academic performance using engineered features and optimized models, paired with insightful visualizations for educators.',
-    highlights: [
-      'Grid Search optimization for best estimators',
-      'Feature engineering on behavioural + academic data',
-      'Rich visual analytics for actionable insights',
-    ],
-    tech: ['Python', 'Scikit-learn', 'Pandas', 'Matplotlib', 'EDA'],
-    metric: [
-      { label: 'Optimization', value: 'GridSearch' },
-      { label: 'Focus', value: 'Forecast' },
-      { label: 'Output', value: 'Insights' },
-    ],
-  },
+  id: 'student-performance',
+  index: '02',
+  title: 'Student Performance Prediction',
+  category: 'Machine Learning',
+  description:
+  'A machine learning web application that predicts student academic performance based on academic and behavioral factors, helping identify performance patterns and provide data-driven insights.',
+  highlights: [
+    'Data preprocessing and exploratory data analysis (EDA)',
+    'Feature engineering and machine learning model training',
+    'Model optimization using GridSearchCV',
+    'Interactive prediction through a Flask-based web application',
+    'Visual analysis of student performance patterns',
+  ],
+  tech: ['Python', 'Scikit-learn', 'Pandas', 'Matplotlib', 'Flask', 'EDA'],
+  metric: [
+    { label: 'Modeling', value: 'ML + GridSearchCV' },
+    { label: 'Prediction', value: 'Performance' },
+    { label: 'Deployment', value: 'Flask + Render' },
+  ],
+},
+
   {
     id: 'sales-dashboard',
     index: '03',
