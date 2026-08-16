@@ -89,24 +89,25 @@ export const projects: Project[] = [
 },
 
   {
-    id: 'sales-dashboard',
-    index: '03',
-    title: 'Sales Data Analytics Dashboard',
-    category: 'Business Intelligence',
-    description:
-      'An enterprise-grade Power BI dashboard integrated with SQL datasets for KPI monitoring, business intelligence and revenue forecasting across regions.',
-    highlights: [
-      'Live KPI monitoring across business units',
-      'SQL-backed data model with relationships',
-      'Forecasting views for revenue planning',
-    ],
-    tech: ['Power BI', 'SQL', 'MySQL', 'Excel', 'DAX'],
-    metric: [
-      { label: 'Type', value: 'Enterprise' },
-      { label: 'Source', value: 'SQL' },
-      { label: 'Use', value: 'Forecasting' },
-    ],
-  },
+  id: 'sales-dashboard',
+  index: '03',
+  title: 'Sales Data Analytics Dashboard',
+  category: 'Data Analytics & Business Intelligence',
+  description:
+    'A professional interactive sales analytics dashboard built with Python and Streamlit to analyze sales performance, revenue trends, product insights and regional business performance.',
+  highlights: [
+    'Interactive KPI monitoring for sales and revenue performance',
+    'Dynamic filters for region, category, product and time-based analysis',
+    'Visual analytics for revenue trends, sales distribution and business performance',
+    'Data-driven insights to support sales and business decision-making',
+  ],
+  tech: ['Python', 'Streamlit', 'Pandas', 'Plotly', 'Excel', 'Data Analytics'],
+  metric: [
+    { label: 'Type', value: 'Interactive Dashboard' },
+    { label: 'Data', value: 'Sales Dataset' },
+    { label: 'Platform', value: 'Streamlit' },
+  ],
+},
   {
     id: 'resume-screening',
     index: '04',
